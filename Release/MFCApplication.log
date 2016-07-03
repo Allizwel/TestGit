@@ -1,0 +1,51 @@
+﻿生成启动时间为 2016/7/3 15:04:16。
+     1>项目“E:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\MFCApplication\MFCApplication.vcxproj”在节点 2 上(Build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“E:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\Release\”。
+         正在创建目录“Release\小区物业管理系统.tlog\”。
+       InitializeBuildStatus:
+         正在创建“Release\小区物业管理系统.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\小区物业管理系统.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\VS2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\小区物业管理系统.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Login.cpp MFCApplication.cpp MFCApplicationDlg.cpp Register.cpp UserSystem.cpp
+         Login.cpp
+     1>e:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\mfcapplication\resource.h(20): warning C4005: “IDCANCEL”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10565) : 参见“IDCANCEL”的前一个定义
+         MFCApplication.cpp
+     1>e:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\mfcapplication\resource.h(20): warning C4005: “IDCANCEL”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10565) : 参见“IDCANCEL”的前一个定义
+         MFCApplicationDlg.cpp
+     1>e:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\mfcapplication\resource.h(20): warning C4005: “IDCANCEL”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10565) : 参见“IDCANCEL”的前一个定义
+         Register.cpp
+     1>e:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\mfcapplication\resource.h(20): warning C4005: “IDCANCEL”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10565) : 参见“IDCANCEL”的前一个定义
+     1>Register.cpp(92): warning C4244: “参数”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>Register.cpp(102): warning C4244: “参数”: 从“wchar_t”转换到“char”，可能丢失数据
+         UserSystem.cpp
+     1>e:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\mfcapplication\resource.h(20): warning C4005: “IDCANCEL”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(10565) : 参见“IDCANCEL”的前一个定义
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\MFCApplication.res" MFCApplication.rc 
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.rh(1365): warning RC4005: 'IDCANCEL' : redefinition
+         
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\Release\小区物业管理系统.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\Release\小区物业管理系统.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\Release\小区物业管理系统.lib" /MACHINE:X86 /SAFESEH Release\MFCApplication.res
+         Release\Login.obj
+         Release\MFCApplication.obj
+         Release\MFCApplicationDlg.obj
+         Release\Register.obj
+         Release\stdafx.obj
+         Release\UserSystem.obj
+         正在生成代码
+         已完成代码的生成
+         MFCApplication.vcxproj -> E:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\Release\小区物业管理系统.exe
+       FinalizeBuildStatus:
+         正在删除文件“Release\小区物业管理系统.tlog\unsuccessfulbuild”。
+         正在对“Release\小区物业管理系统.tlog\小区物业管理系统.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\MFCApplication\MFCApplication.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:25.19

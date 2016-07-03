@@ -1,0 +1,48 @@
+﻿生成启动时间为 2016/6/20 22:07:12。
+     1>项目“E:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\MFCApplication\MFCApplication.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (MFCApplication.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>InitializeBuildStatus:
+         正在创建“Debug\小区物业管理系统.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\小区物业管理系统.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\小区物业管理系统.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Login.cpp MFCApplication.cpp MFCApplicationDlg.cpp Register.cpp UserSystem.cpp
+         UserSystem.cpp
+     1>e:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\mfcapplication\resource.h(20): warning C4005: “IDCANCEL”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565) : 参见“IDCANCEL”的前一个定义
+         Register.cpp
+     1>e:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\mfcapplication\resource.h(20): warning C4005: “IDCANCEL”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565) : 参见“IDCANCEL”的前一个定义
+     1>e:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\mfcapplication\register.cpp(92): warning C4244: “参数”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>e:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\mfcapplication\register.cpp(102): warning C4244: “参数”: 从“wchar_t”转换到“char”，可能丢失数据
+         MFCApplicationDlg.cpp
+     1>e:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\mfcapplication\resource.h(20): warning C4005: “IDCANCEL”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565) : 参见“IDCANCEL”的前一个定义
+         MFCApplication.cpp
+     1>e:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\mfcapplication\resource.h(20): warning C4005: “IDCANCEL”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565) : 参见“IDCANCEL”的前一个定义
+         Login.cpp
+     1>e:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\mfcapplication\resource.h(20): warning C4005: “IDCANCEL”: 宏重定义
+                 c:\program files (x86)\windows kits\8.1\include\um\winuser.h(10565) : 参见“IDCANCEL”的前一个定义
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\MFCApplication.res" MFCApplication.rc 
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.rh(1365): warning RC4005: 'IDCANCEL' : redefinition
+         
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\Debug\小区物业管理系统.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\Debug\小区物业管理系统.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\Debug\小区物业管理系统.lib" /MACHINE:X86 Debug\MFCApplication.res
+         Debug\Login.obj
+         Debug\MFCApplication.obj
+         Debug\MFCApplicationDlg.obj
+         Debug\Register.obj
+         Debug\stdafx.obj
+         Debug\UserSystem.obj
+         MFCApplication.vcxproj -> E:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\Debug\小区物业管理系统.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\小区物业管理系统.tlog\unsuccessfulbuild”。
+         正在对“Debug\小区物业管理系统.tlog\小区物业管理系统.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\大三下\系统分析与设计\作业更新进程\part1\小区物业管理系统\MFCApplication\MFCApplication.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:52.71
